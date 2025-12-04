@@ -246,6 +246,9 @@ ul {
     scrollbar-width: none;
     padding-bottom: 40px;
 }
+.products-slider::-webkit-scrollbar {
+    display: none;
+}
 
 .product-card {
     background-color: #fff;
@@ -538,6 +541,9 @@ ul {
     overflow-x: auto;
     scrollbar-width: none;
     padding-bottom: 40px; 
+}
+.combo-slider::-webkit-scrollbar {
+    display: none;
 }
 
 .combo-card {
